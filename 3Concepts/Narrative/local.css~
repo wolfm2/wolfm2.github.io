@@ -1,0 +1,79 @@
+#title {
+  text-align: center;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-weight: 500;
+  font-size: 70pt;
+  padding: 10px; 
+}
+
+#intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 14pt;
+  padding: 40px; 
+}
+
+null {
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Pragati Narrow', sans-serif;
+  font-family: 'Varela', sans-serif;
+}
+
+.faceListPad {
+  display: inline-block;
+  width: 48%;
+}
+
+.faceList {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* Set the image to fill its parent and make transparent */
+.faceList img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.entry {
+  display: flex;
+  padding-top: 100px;
+}
+
+/* use background image in div */
+.lpic, .ltxt {
+  margin-left: 10%;
+}
+
+.rpic, .rtxt {
+  margin-right: 10%;
+}
+
+.pic {
+  flex: 0 0 40%;
+  padding: 20px; 
+}
+
+.txt {
+  flex: 1;
+  padding: 20px; 
+  font-family: 'Lato', sans-serif;
+  font-size: 12pt;
+}
+
+
+
+
