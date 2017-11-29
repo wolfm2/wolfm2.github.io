@@ -1,3 +1,14 @@
+/* Visualizations */
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+  
+/* Content */
 #title {
   text-align: center;
   font-family: 'Pragati Narrow', sans-serif;

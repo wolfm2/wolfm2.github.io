@@ -1,0 +1,806 @@
+symbol,date,price
+B&E,Jan 2000,1394.46
+B&E,Feb 2000,1366.42
+B&E,Mar 2000,1498.58
+B&E,Apr 2000,1452.43
+B&E,May 2000,1420.6
+B&E,Jun 2000,1454.6
+B&E,Jul 2000,1430.83
+B&E,Aug 2000,1517.68
+B&E,Sep 2000,1436.51
+B&E,Oct 2000,1429.4
+B&E,Nov 2000,1314.95
+B&E,Dec 2000,1320.28
+B&E,Jan 2001,1366.01
+B&E,Feb 2001,1239.94
+B&E,Mar 2001,1160.33
+B&E,Apr 2001,1249.46
+B&E,May 2001,1255.82
+B&E,Jun 2001,1224.38
+B&E,Jul 2001,1211.23
+B&E,Aug 2001,1133.58
+B&E,Sep 2001,1040.94
+B&E,Oct 2001,1059.78
+B&E,Nov 2001,1139.45
+B&E,Dec 2001,1148.08
+B&E,Jan 2002,1130.2
+B&E,Feb 2002,1106.73
+B&E,Mar 2002,1147.39
+B&E,Apr 2002,1076.92
+B&E,May 2002,1067.14
+B&E,Jun 2002,989.82
+B&E,Jul 2002,911.62
+B&E,Aug 2002,916.07
+B&E,Sep 2002,815.28
+B&E,Oct 2002,885.76
+B&E,Nov 2002,936.31
+B&E,Dec 2002,879.82
+B&E,Jan 2003,855.7
+B&E,Feb 2003,841.15
+B&E,Mar 2003,848.18
+B&E,Apr 2003,916.92
+B&E,May 2003,963.59
+B&E,Jun 2003,974.5
+B&E,Jul 2003,990.31
+B&E,Aug 2003,1008.01
+B&E,Sep 2003,995.97
+B&E,Oct 2003,1050.71
+B&E,Nov 2003,1058.2
+B&E,Dec 2003,1111.92
+B&E,Jan 2004,1131.13
+B&E,Feb 2004,1144.94
+B&E,Mar 2004,1126.21
+B&E,Apr 2004,1107.3
+B&E,May 2004,1120.68
+B&E,Jun 2004,1140.84
+B&E,Jul 2004,1101.72
+B&E,Aug 2004,1104.24
+B&E,Sep 2004,1114.58
+B&E,Oct 2004,1130.2
+B&E,Nov 2004,1173.82
+B&E,Dec 2004,1211.92
+B&E,Jan 2005,1181.27
+B&E,Feb 2005,1203.6
+B&E,Mar 2005,1180.59
+B&E,Apr 2005,1156.85
+B&E,May 2005,1191.5
+B&E,Jun 2005,1191.33
+B&E,Jul 2005,1234.18
+B&E,Aug 2005,1220.33
+B&E,Sep 2005,1228.81
+B&E,Oct 2005,1207.01
+B&E,Nov 2005,1249.48
+B&E,Dec 2005,1248.29
+B&E,Jan 2006,1280.08
+B&E,Feb 2006,1280.66
+B&E,Mar 2006,1294.87
+B&E,Apr 2006,1310.61
+B&E,May 2006,1270.09
+B&E,Jun 2006,1270.2
+B&E,Jul 2006,1276.66
+B&E,Aug 2006,1303.82
+B&E,Sep 2006,1335.85
+B&E,Oct 2006,1377.94
+B&E,Nov 2006,1400.63
+B&E,Dec 2006,1418.3
+B&E,Jan 2007,1438.24
+B&E,Feb 2007,1406.82
+B&E,Mar 2007,1420.86
+B&E,Apr 2007,1482.37
+B&E,May 2007,1530.62
+B&E,Jun 2007,1503.35
+B&E,Jul 2007,1455.27
+B&E,Aug 2007,1473.99
+B&E,Sep 2007,1526.75
+B&E,Oct 2007,1549.38
+B&E,Nov 2007,1481.14
+B&E,Dec 2007,1468.36
+B&E,Jan 2008,1378.55
+B&E,Feb 2008,1330.63
+B&E,Mar 2008,1322.7
+B&E,Apr 2008,1385.59
+B&E,May 2008,1400.38
+B&E,Jun 2008,1280
+B&E,Jul 2008,1267.38
+B&E,Aug 2008,1282.83
+B&E,Sep 2008,1166.36
+B&E,Oct 2008,968.75
+B&E,Nov 2008,896.24
+B&E,Dec 2008,903.25
+B&E,Jan 2009,825.88
+B&E,Feb 2009,735.09
+B&E,Mar 2009,797.87
+B&E,Apr 2009,872.81
+B&E,May 2009,919.14
+B&E,Jun 2009,919.32
+B&E,Jul 2009,987.48
+B&E,Aug 2009,1020.62
+B&E,Sep 2009,1057.08
+B&E,Oct 2009,1036.19
+B&E,Nov 2009,1095.63
+B&E,Dec 2009,1115.1
+B&E,Jan 2010,1073.87
+B&E,Feb 2010,1104.49
+B&E,Mar 2010,1140.45
+Robbery,Jan 2000,39.81
+Robbery,Feb 2000,36.35
+Robbery,Mar 2000,43.22
+Robbery,Apr 2000,28.37
+Robbery,May 2000,25.45
+Robbery,Jun 2000,32.54
+Robbery,Jul 2000,28.4
+Robbery,Aug 2000,28.4
+Robbery,Sep 2000,24.53
+Robbery,Oct 2000,28.02
+Robbery,Nov 2000,23.34
+Robbery,Dec 2000,17.65
+Robbery,Jan 2001,24.84
+Robbery,Feb 2001,24
+Robbery,Mar 2001,22.25
+Robbery,Apr 2001,27.56
+Robbery,May 2001,28.14
+Robbery,Jun 2001,29.7
+Robbery,Jul 2001,26.93
+Robbery,Aug 2001,23.21
+Robbery,Sep 2001,20.82
+Robbery,Oct 2001,23.65
+Robbery,Nov 2001,26.12
+Robbery,Dec 2001,26.95
+Robbery,Jan 2002,25.92
+Robbery,Feb 2002,23.73
+Robbery,Mar 2002,24.53
+Robbery,Apr 2002,21.26
+Robbery,May 2002,20.71
+Robbery,Jun 2002,22.25
+Robbery,Jul 2002,19.52
+Robbery,Aug 2002,19.97
+Robbery,Sep 2002,17.79
+Robbery,Oct 2002,21.75
+Robbery,Nov 2002,23.46
+Robbery,Dec 2002,21.03
+Robbery,Jan 2003,19.31
+Robbery,Feb 2003,19.34
+Robbery,Mar 2003,19.76
+Robbery,Apr 2003,20.87
+Robbery,May 2003,20.09
+Robbery,Jun 2003,20.93
+Robbery,Jul 2003,21.56
+Robbery,Aug 2003,21.65
+Robbery,Sep 2003,22.69
+Robbery,Oct 2003,21.45
+Robbery,Nov 2003,21.1
+Robbery,Dec 2003,22.46
+Robbery,Jan 2004,22.69
+Robbery,Feb 2004,21.77
+Robbery,Mar 2004,20.46
+Robbery,Apr 2004,21.45
+Robbery,May 2004,21.53
+Robbery,Jun 2004,23.44
+Robbery,Jul 2004,23.38
+Robbery,Aug 2004,22.47
+Robbery,Sep 2004,22.76
+Robbery,Oct 2004,23.02
+Robbery,Nov 2004,24.6
+Robbery,Dec 2004,24.52
+Robbery,Jan 2005,24.11
+Robbery,Feb 2005,23.15
+Robbery,Mar 2005,22.24
+Robbery,Apr 2005,23.28
+Robbery,May 2005,23.82
+Robbery,Jun 2005,22.93
+Robbery,Jul 2005,23.64
+Robbery,Aug 2005,25.35
+Robbery,Sep 2005,23.83
+Robbery,Oct 2005,23.8
+Robbery,Nov 2005,25.71
+Robbery,Dec 2005,24.29
+Robbery,Jan 2006,26.14
+Robbery,Feb 2006,25.04
+Robbery,Mar 2006,25.36
+Robbery,Apr 2006,22.5
+Robbery,May 2006,21.19
+Robbery,Jun 2006,21.8
+Robbery,Jul 2006,22.51
+Robbery,Aug 2006,24.13
+Robbery,Sep 2006,25.68
+Robbery,Oct 2006,26.96
+Robbery,Nov 2006,27.66
+Robbery,Dec 2006,28.13
+Robbery,Jan 2007,29.07
+Robbery,Feb 2007,26.63
+Robbery,Mar 2007,26.35
+Robbery,Apr 2007,28.3
+Robbery,May 2007,29.11
+Robbery,Jun 2007,27.95
+Robbery,Jul 2007,27.5
+Robbery,Aug 2007,27.34
+Robbery,Sep 2007,28.04
+Robbery,Oct 2007,35.03
+Robbery,Nov 2007,32.09
+Robbery,Dec 2007,34
+Robbery,Jan 2008,31.13
+Robbery,Feb 2008,26.07
+Robbery,Mar 2008,27.21
+Robbery,Apr 2008,27.34
+Robbery,May 2008,27.25
+Robbery,Jun 2008,26.47
+Robbery,Jul 2008,24.75
+Robbery,Aug 2008,26.36
+Robbery,Sep 2008,25.78
+Robbery,Oct 2008,21.57
+Robbery,Nov 2008,19.66
+Robbery,Dec 2008,18.91
+Robbery,Jan 2009,16.63
+Robbery,Feb 2009,15.81
+Robbery,Mar 2009,17.99
+Robbery,Apr 2009,19.84
+Robbery,May 2009,20.59
+Robbery,Jun 2009,23.42
+Robbery,Jul 2009,23.18
+Robbery,Aug 2009,24.43
+Robbery,Sep 2009,25.49
+Robbery,Oct 2009,27.48
+Robbery,Nov 2009,29.27
+Robbery,Dec 2009,30.34
+Robbery,Jan 2010,28.05
+Robbery,Feb 2010,28.67
+Robbery,Mar 2010,28.8
+Drugs,Jan 2000,64.56
+Drugs,Feb 2000,68.87
+Drugs,Mar 2000,67
+Drugs,Apr 2000,55.19
+Drugs,May 2000,48.31
+Drugs,Jun 2000,36.31
+Drugs,Jul 2000,30.12
+Drugs,Aug 2000,41.5
+Drugs,Sep 2000,38.44
+Drugs,Oct 2000,36.62
+Drugs,Nov 2000,24.69
+Drugs,Dec 2000,15.56
+Drugs,Jan 2001,17.31
+Drugs,Feb 2001,10.19
+Drugs,Mar 2001,10.23
+Drugs,Apr 2001,15.78
+Drugs,May 2001,16.69
+Drugs,Jun 2001,14.15
+Drugs,Jul 2001,12.49
+Drugs,Aug 2001,8.94
+Drugs,Sep 2001,5.97
+Drugs,Oct 2001,6.98
+Drugs,Nov 2001,11.32
+Drugs,Dec 2001,10.82
+Drugs,Jan 2002,14.19
+Drugs,Feb 2002,14.1
+Drugs,Mar 2002,14.3
+Drugs,Apr 2002,16.69
+Drugs,May 2002,18.23
+Drugs,Jun 2002,16.25
+Drugs,Jul 2002,14.45
+Drugs,Aug 2002,14.94
+Drugs,Sep 2002,15.93
+Drugs,Oct 2002,19.36
+Drugs,Nov 2002,23.35
+Drugs,Dec 2002,18.89
+Drugs,Jan 2003,21.85
+Drugs,Feb 2003,22.01
+Drugs,Mar 2003,26.03
+Drugs,Apr 2003,28.69
+Drugs,May 2003,35.89
+Drugs,Jun 2003,36.32
+Drugs,Jul 2003,41.64
+Drugs,Aug 2003,46.32
+Drugs,Sep 2003,48.43
+Drugs,Oct 2003,54.43
+Drugs,Nov 2003,53.97
+Drugs,Dec 2003,52.62
+Drugs,Jan 2004,50.4
+Drugs,Feb 2004,43.01
+Drugs,Mar 2004,43.28
+Drugs,Apr 2004,43.6
+Drugs,May 2004,48.5
+Drugs,Jun 2004,54.4
+Drugs,Jul 2004,38.92
+Drugs,Aug 2004,38.14
+Drugs,Sep 2004,40.86
+Drugs,Oct 2004,34.13
+Drugs,Nov 2004,39.68
+Drugs,Dec 2004,44.29
+Drugs,Jan 2005,43.22
+Drugs,Feb 2005,35.18
+Drugs,Mar 2005,34.27
+Drugs,Apr 2005,32.36
+Drugs,May 2005,35.51
+Drugs,Jun 2005,33.09
+Drugs,Jul 2005,45.15
+Drugs,Aug 2005,42.7
+Drugs,Sep 2005,45.3
+Drugs,Oct 2005,39.86
+Drugs,Nov 2005,48.46
+Drugs,Dec 2005,47.15
+Drugs,Jan 2006,44.82
+Drugs,Feb 2006,37.44
+Drugs,Mar 2006,36.53
+Drugs,Apr 2006,35.21
+Drugs,May 2006,34.61
+Drugs,Jun 2006,38.68
+Drugs,Jul 2006,26.89
+Drugs,Aug 2006,30.83
+Drugs,Sep 2006,32.12
+Drugs,Oct 2006,38.09
+Drugs,Nov 2006,40.34
+Drugs,Dec 2006,39.46
+Drugs,Jan 2007,37.67
+Drugs,Feb 2007,39.14
+Drugs,Mar 2007,39.79
+Drugs,Apr 2007,61.33
+Drugs,May 2007,69.14
+Drugs,Jun 2007,68.41
+Drugs,Jul 2007,78.54
+Drugs,Aug 2007,79.91
+Drugs,Sep 2007,93.15
+Drugs,Oct 2007,89.15
+Drugs,Nov 2007,90.56
+Drugs,Dec 2007,92.64
+Drugs,Jan 2008,77.7
+Drugs,Feb 2008,64.47
+Drugs,Mar 2008,71.3
+Drugs,Apr 2008,78.63
+Drugs,May 2008,81.62
+Drugs,Jun 2008,73.33
+Drugs,Jul 2008,76.34
+Drugs,Aug 2008,80.81
+Drugs,Sep 2008,72.76
+Drugs,Oct 2008,57.24
+Drugs,Nov 2008,42.7
+Drugs,Dec 2008,51.28
+Drugs,Jan 2009,58.82
+Drugs,Feb 2009,64.79
+Drugs,Mar 2009,73.44
+Drugs,Apr 2009,80.52
+Drugs,May 2009,77.99
+Drugs,Jun 2009,83.66
+Drugs,Jul 2009,85.76
+Drugs,Aug 2009,81.19
+Drugs,Sep 2009,93.36
+Drugs,Oct 2009,118.81
+Drugs,Nov 2009,135.91
+Drugs,Dec 2009,134.52
+Drugs,Jan 2010,125.41
+Drugs,Feb 2010,118.4
+Drugs,Mar 2010,128.82
+Assult,Jan 2000,100.52
+Assult,Feb 2000,92.11
+Assult,Mar 2000,106.11
+Assult,Apr 2000,99.95
+Assult,May 2000,96.31
+Assult,Jun 2000,98.33
+Assult,Jul 2000,100.74
+Assult,Aug 2000,118.62
+Assult,Sep 2000,101.19
+Assult,Oct 2000,88.5
+Assult,Nov 2000,84.12
+Assult,Dec 2000,76.47
+Assult,Jan 2001,100.76
+Assult,Feb 2001,89.98
+Assult,Mar 2001,86.63
+Assult,Apr 2001,103.7
+Assult,May 2001,100.82
+Assult,Jun 2001,102.35
+Assult,Jul 2001,94.87
+Assult,Aug 2001,90.25
+Assult,Sep 2001,82.82
+Assult,Oct 2001,97.58
+Assult,Nov 2001,104.5
+Assult,Dec 2001,109.36
+Assult,Jan 2002,97.54
+Assult,Feb 2002,88.82
+Assult,Mar 2002,94.15
+Assult,Apr 2002,75.82
+Assult,May 2002,72.97
+Assult,Jun 2002,65.31
+Assult,Jul 2002,63.86
+Assult,Aug 2002,68.52
+Assult,Sep 2002,53.01
+Assult,Oct 2002,71.76
+Assult,Nov 2002,79.16
+Assult,Dec 2002,70.58
+Assult,Jan 2003,71.22
+Assult,Feb 2003,71.13
+Assult,Mar 2003,71.57
+Assult,Apr 2003,77.47
+Assult,May 2003,80.48
+Assult,Jun 2003,75.42
+Assult,Jul 2003,74.28
+Assult,Aug 2003,75.12
+Assult,Sep 2003,80.91
+Assult,Oct 2003,81.96
+Assult,Nov 2003,83.08
+Assult,Dec 2003,85.05
+Assult,Jan 2004,91.06
+Assult,Feb 2004,88.7
+Assult,Mar 2004,84.41
+Assult,Apr 2004,81.04
+Assult,May 2004,81.59
+Assult,Jun 2004,81.19
+Assult,Jul 2004,80.19
+Assult,Aug 2004,78.17
+Assult,Sep 2004,79.13
+Assult,Oct 2004,82.84
+Assult,Nov 2004,87.15
+Assult,Dec 2004,91.16
+Assult,Jan 2005,86.39
+Assult,Feb 2005,85.78
+Assult,Mar 2005,84.66
+Assult,Apr 2005,70.77
+Assult,May 2005,70.18
+Assult,Jun 2005,68.93
+Assult,Jul 2005,77.53
+Assult,Aug 2005,75.07
+Assult,Sep 2005,74.7
+Assult,Oct 2005,76.25
+Assult,Nov 2005,82.98
+Assult,Dec 2005,76.73
+Assult,Jan 2006,75.89
+Assult,Feb 2006,75.09
+Assult,Mar 2006,77.17
+Assult,Apr 2006,77.05
+Assult,May 2006,75.04
+Assult,Jun 2006,72.15
+Assult,Jul 2006,72.7
+Assult,Aug 2006,76.35
+Assult,Sep 2006,77.26
+Assult,Oct 2006,87.06
+Assult,Nov 2006,86.95
+Assult,Dec 2006,91.9
+Assult,Jan 2007,93.79
+Assult,Feb 2007,88.18
+Assult,Mar 2007,89.44
+Assult,Apr 2007,96.98
+Assult,May 2007,101.54
+Assult,Jun 2007,100.25
+Assult,Jul 2007,105.4
+Assult,Aug 2007,111.54
+Assult,Sep 2007,112.6
+Assult,Oct 2007,111
+Assult,Nov 2007,100.9
+Assult,Dec 2007,103.7
+Assult,Jan 2008,102.75
+Assult,Feb 2008,109.64
+Assult,Mar 2008,110.87
+Assult,Apr 2008,116.23
+Assult,May 2008,125.14
+Assult,Jun 2008,114.6
+Assult,Jul 2008,123.74
+Assult,Aug 2008,118.16
+Assult,Sep 2008,113.53
+Assult,Oct 2008,90.24
+Assult,Nov 2008,79.65
+Assult,Dec 2008,82.15
+Assult,Jan 2009,89.46
+Assult,Feb 2009,90.32
+Assult,Mar 2009,95.09
+Assult,Apr 2009,101.29
+Assult,May 2009,104.85
+Assult,Jun 2009,103.01
+Assult,Jul 2009,116.34
+Assult,Aug 2009,117
+Assult,Sep 2009,118.55
+Assult,Oct 2009,119.54
+Assult,Nov 2009,125.79
+Assult,Dec 2009,130.32
+Assult,Jan 2010,121.85
+Assult,Feb 2010,127.16
+Assult,Mar 2010,125.55
+Murder,Aug 2004,102.37
+Murder,Sep 2004,129.6
+Murder,Oct 2004,190.64
+Murder,Nov 2004,181.98
+Murder,Dec 2004,192.79
+Murder,Jan 2005,195.62
+Murder,Feb 2005,187.99
+Murder,Mar 2005,180.51
+Murder,Apr 2005,220
+Murder,May 2005,277.27
+Murder,Jun 2005,294.15
+Murder,Jul 2005,287.76
+Murder,Aug 2005,286
+Murder,Sep 2005,316.46
+Murder,Oct 2005,372.14
+Murder,Nov 2005,404.91
+Murder,Dec 2005,414.86
+Murder,Jan 2006,432.66
+Murder,Feb 2006,362.62
+Murder,Mar 2006,390
+Murder,Apr 2006,417.94
+Murder,May 2006,371.82
+Murder,Jun 2006,419.33
+Murder,Jul 2006,386.6
+Murder,Aug 2006,378.53
+Murder,Sep 2006,401.9
+Murder,Oct 2006,476.39
+Murder,Nov 2006,484.81
+Murder,Dec 2006,460.48
+Murder,Jan 2007,501.5
+Murder,Feb 2007,449.45
+Murder,Mar 2007,458.16
+Murder,Apr 2007,471.38
+Murder,May 2007,497.91
+Murder,Jun 2007,522.7
+Murder,Jul 2007,510
+Murder,Aug 2007,515.25
+Murder,Sep 2007,567.27
+Murder,Oct 2007,707
+Murder,Nov 2007,693
+Murder,Dec 2007,691.48
+Murder,Jan 2008,564.3
+Murder,Feb 2008,471.18
+Murder,Mar 2008,440.47
+Murder,Apr 2008,574.29
+Murder,May 2008,585.8
+Murder,Jun 2008,526.42
+Murder,Jul 2008,473.75
+Murder,Aug 2008,463.29
+Murder,Sep 2008,400.52
+Murder,Oct 2008,359.36
+Murder,Nov 2008,292.96
+Murder,Dec 2008,307.65
+Murder,Jan 2009,338.53
+Murder,Feb 2009,337.99
+Murder,Mar 2009,348.06
+Murder,Apr 2009,395.97
+Murder,May 2009,417.23
+Murder,Jun 2009,421.59
+Murder,Jul 2009,443.05
+Murder,Aug 2009,461.67
+Murder,Sep 2009,495.85
+Murder,Oct 2009,536.12
+Murder,Nov 2009,583
+Murder,Dec 2009,619.98
+Murder,Jan 2010,529.94
+Murder,Feb 2010,526.8
+Murder,Mar 2010,560.19
+Tax Evasion,Jan 2000,6.67
+Tax Evasion,Feb 2000,6.41
+Tax Evasion,Mar 2000,6.02
+Tax Evasion,Apr 2000,6.21
+Tax Evasion,May 2000,6.28
+Tax Evasion,Jun 2000,6.02
+Tax Evasion,Jul 2000,6.03
+Tax Evasion,Aug 2000,5.73
+Tax Evasion,Sep 2000,5.78
+Tax Evasion,Oct 2000,5.76
+Tax Evasion,Nov 2000,5.44
+Tax Evasion,Dec 2000,5.11
+Tax Evasion,Jan 2001,5.18
+Tax Evasion,Feb 2001,4.91
+Tax Evasion,Mar 2001,4.91
+Tax Evasion,Apr 2001,5.34
+Tax Evasion,May 2001,5.41
+Tax Evasion,Jun 2001,5.39
+Tax Evasion,Jul 2001,5.04
+Tax Evasion,Aug 2001,4.82
+Tax Evasion,Sep 2001,4.57
+Tax Evasion,Oct 2001,4.26
+Tax Evasion,Nov 2001,4.74
+Tax Evasion,Dec 2001,5.03
+Tax Evasion,Jan 2002,5.03
+Tax Evasion,Feb 2002,4.86
+Tax Evasion,Mar 2002,5.41
+Tax Evasion,Apr 2002,5.09
+Tax Evasion,May 2002,5.04
+Tax Evasion,Jun 2002,4.82
+Tax Evasion,Jul 2002,4.47
+Tax Evasion,Aug 2002,4.14
+Tax Evasion,Sep 2002,3.61
+Tax Evasion,Oct 2002,3.91
+Tax Evasion,Nov 2002,4.21
+Tax Evasion,Dec 2002,3.82
+Tax Evasion,Jan 2003,3.97
+Tax Evasion,Feb 2003,3.7
+Tax Evasion,Mar 2003,3.82
+Tax Evasion,Apr 2003,3.86
+Tax Evasion,May 2003,3.35
+Tax Evasion,Jun 2003,3.53
+Tax Evasion,Jul 2003,4.47
+Tax Evasion,Aug 2003,4.45
+Tax Evasion,Sep 2003,3.94
+Tax Evasion,Oct 2003,4.3
+Tax Evasion,Nov 2003,4.32
+Tax Evasion,Dec 2003,4.26
+Tax Evasion,Jan 2004,4.14
+Tax Evasion,Feb 2004,3.98
+Tax Evasion,Mar 2004,3.84
+Tax Evasion,Apr 2004,4.5
+Tax Evasion,May 2004,4.66
+Tax Evasion,Jun 2004,4.62
+Tax Evasion,Jul 2004,4.47
+Tax Evasion,Aug 2004,4.13
+Tax Evasion,Sep 2004,4.12
+Tax Evasion,Oct 2004,4.03
+Tax Evasion,Nov 2004,4.36
+Tax Evasion,Dec 2004,4.22
+Tax Evasion,Jan 2005,4.13
+Tax Evasion,Feb 2005,4.36
+Tax Evasion,Mar 2005,4.5
+Tax Evasion,Apr 2005,4.2
+Tax Evasion,May 2005,4.01
+Tax Evasion,Jun 2005,3.94
+Tax Evasion,Jul 2005,4.29
+Tax Evasion,Aug 2005,4.02
+Tax Evasion,Sep 2005,4.33
+Tax Evasion,Oct 2005,4.56
+Tax Evasion,Nov 2005,4.5
+Tax Evasion,Dec 2005,4.39
+Tax Evasion,Jan 2006,4.53
+Tax Evasion,Feb 2006,4.55
+Tax Evasion,Mar 2006,4.85
+Tax Evasion,Apr 2006,5.07
+Tax Evasion,May 2006,5.11
+Tax Evasion,Jun 2006,5.14
+Tax Evasion,Jul 2006,4.99
+Tax Evasion,Aug 2006,4.73
+Tax Evasion,Sep 2006,4.63
+Tax Evasion,Oct 2006,4.61
+Tax Evasion,Nov 2006,4.46
+Tax Evasion,Dec 2006,4.71
+Tax Evasion,Jan 2007,4.83
+Tax Evasion,Feb 2007,4.55
+Tax Evasion,Mar 2007,4.65
+Tax Evasion,Apr 2007,4.63
+Tax Evasion,May 2007,4.89
+Tax Evasion,Jun 2007,5.03
+Tax Evasion,Jul 2007,4.77
+Tax Evasion,Aug 2007,4.54
+Tax Evasion,Sep 2007,4.58
+Tax Evasion,Oct 2007,4.47
+Tax Evasion,Nov 2007,3.97
+Tax Evasion,Dec 2007,4.03
+Tax Evasion,Jan 2008,3.64
+Tax Evasion,Feb 2008,3.53
+Tax Evasion,Mar 2008,3.43
+Tax Evasion,Apr 2008,3.76
+Tax Evasion,May 2008,4.05
+Tax Evasion,Jun 2008,3.98
+Tax Evasion,Jul 2008,3.98
+Tax Evasion,Aug 2008,3.81
+Tax Evasion,Sep 2008,3.83
+Tax Evasion,Oct 2008,3.97
+Tax Evasion,Nov 2008,2.96
+Tax Evasion,Dec 2008,2.24
+Tax Evasion,Jan 2009,2.84
+Tax Evasion,Feb 2009,3.04
+Tax Evasion,Mar 2009,2.68
+Tax Evasion,Apr 2009,3.12
+Tax Evasion,May 2009,3.46
+Tax Evasion,Jun 2009,3.52
+Tax Evasion,Jul 2009,3.5
+Tax Evasion,Aug 2009,3.4
+Tax Evasion,Sep 2009,3.31
+Tax Evasion,Oct 2009,3.39
+Tax Evasion,Nov 2009,3.2
+Tax Evasion,Dec 2009,3.84
+Tax Evasion,Jan 2010,3.61
+Tax Evasion,Feb 2010,3.6
+Tax Evasion,Mar 2010,3.7
+Other,Jan 2000,25.94
+Other,Feb 2000,28.66
+Other,Mar 2000,33.95
+Other,Apr 2000,31.01
+Other,May 2000,21
+Other,Jun 2000,26.19
+Other,Jul 2000,25.41
+Other,Aug 2000,30.47
+Other,Sep 2000,12.88
+Other,Oct 2000,9.78
+Other,Nov 2000,8.25
+Other,Dec 2000,7.44
+Other,Jan 2001,10.81
+Other,Feb 2001,9.12
+Other,Mar 2001,11.03
+Other,Apr 2001,12.74
+Other,May 2001,9.98
+Other,Jun 2001,11.62
+Other,Jul 2001,9.4
+Other,Aug 2001,9.27
+Other,Sep 2001,7.76
+Other,Oct 2001,8.78
+Other,Nov 2001,10.65
+Other,Dec 2001,10.95
+Other,Jan 2002,12.36
+Other,Feb 2002,10.85
+Other,Mar 2002,11.84
+Other,Apr 2002,12.14
+Other,May 2002,11.65
+Other,Jul 2002,7.63
+Other,Aug 2002,7.38
+Other,Sep 2002,7.25
+Other,Oct 2002,8.03
+Other,Nov 2002,7.75
+Other,Dec 2002,7.16
+Other,Jan 2003,7.18
+Other,Feb 2003,7.51
+Other,Mar 2003,7.07
+Other,Apr 2003,7.11
+Other,May 2003,8.98
+Other,Jun 2003,9.53
+Other,Jul 2003,10.54
+Other,Aug 2003,11.31
+Other,Sep 2003,10.36
+Other,Oct 2003,11.44
+Other,Nov 2003,10.45
+Other,Dec 2003,10.69
+Other,Jan 2004,11.28
+Other,Feb 2004,11.96
+Other,Mar 2004,13.52
+Other,Apr 2004,12.89
+Other,May 2004,14.03
+Other,Jun 2004,16.27
+Other,Jul 2004,16.17
+Other,Aug 2004,17.25
+Other,Sep 2004,19.38
+Other,Oct 2004,26.2
+Other,Nov 2004,33.53
+Other,Dec 2004,32.2
+Other,Jan 2005,38.45
+Other,Feb 2005,44.86
+Other,Mar 2005,41.67
+Other,Apr 2005,36.06
+Other,May 2005,39.76
+Other,Jun 2005,36.81
+Other,Jul 2005,42.65
+Other,Aug 2005,46.89
+Other,Sep 2005,53.61
+Other,Oct 2005,57.59
+Other,Nov 2005,67.82
+Other,Dec 2005,71.89
+Other,Jan 2006,75.51
+Other,Feb 2006,68.49
+Other,Mar 2006,62.72
+Other,Apr 2006,70.39
+Other,May 2006,59.77
+Other,Jun 2006,57.27
+Other,Jul 2006,67.96
+Other,Aug 2006,67.85
+Other,Sep 2006,76.98
+Other,Oct 2006,81.08
+Other,Nov 2006,91.66
+Other,Dec 2006,84.84
+Other,Jan 2007,85.73
+Other,Feb 2007,84.61
+Other,Mar 2007,92.91
+Other,Apr 2007,99.8
+Other,May 2007,121.19
+Other,Jun 2007,122.04
+Other,Jul 2007,131.76
+Other,Aug 2007,138.48
+Other,Sep 2007,153.47
+Other,Oct 2007,189.95
+Other,Nov 2007,182.22
+Other,Dec 2007,198.08
+Other,Jan 2008,135.36
+Other,Feb 2008,125.02
+Other,Mar 2008,143.5
+Other,Apr 2008,173.95
+Other,May 2008,188.75
+Other,Jun 2008,167.44
+Other,Jul 2008,158.95
+Other,Aug 2008,169.53
+Other,Sep 2008,113.66
+Other,Oct 2008,107.59
+Other,Nov 2008,92.67
+Other,Dec 2008,85.35
+Other,Jan 2009,90.13
+Other,Feb 2009,89.31
+Other,Mar 2009,105.12
+Other,Apr 2009,125.83
+Other,May 2009,135.81
+Other,Jun 2009,142.43
+Other,Jul 2009,163.39
+Other,Aug 2009,168.21
+Other,Sep 2009,185.35
+Other,Oct 2009,188.5
+Other,Nov 2009,199.91
+Other,Dec 2009,210.73
+Other,Jan 2010,192.06
+Other,Feb 2010,204.62
+Other,Mar 2010,223.02
