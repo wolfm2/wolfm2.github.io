@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<style> 
+svg {
+padding: 45px;
+
+}
+
+.axis line, .axis path{
+  stroke: red;
+  fill: none;
+  stroke-width: 2px;
+}
+
+svg text{
+  fill: red;
+} 
+</style>
+</head>
+
+<body>
+<svg> </svg>
+
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="utils.js"></script>
+
+<script src="34540-0001-Data.js"></script>
+<script>
+
+//initData(); // read flat file
+// data = data.from.parent
+data = d3.tsvParse(tsvData);
+
+// fcn data, xacc, yacc, startx, starty, tickforeach, width, height, ret: scaled accessors
+// axis titles
+
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 400 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+xn = "STATEID";
+yn = "CUSUNST"
+
+// munge the data  
+cusunstByStateid = d3.nest().key(function(data){return data.YEAR})
+						.sortKeys(d3.ascending)
+						.rollup( function(d) {
+						  return {
+							xdat:d[0]["YEAR"],
+							//xname:d3.mean(d, function(g){return +g.xname}),
+							ydat:d3.mean(d, function(g){return +g[yn]})
+							};
+						})
+						.entries(data);
+
+//function xAcc(d) { return +d[xname]; }
+//function yAcc(d) { return +d[yname]; }  
+
+// draw axes & get drawing context / scalers
+var c = getContext("svg", cusunstByStateid, width, height, "xdat", "ydat", "XLab", "YLab");
+
+// data accessor / parser
+var getData = d3.line()
+				   .x(c.xsa) 
+				   .y(c.ysa);
+
+// make svg path
+c.e.append("path") .attr("d", getData(c.d))
+				 .attr("stroke", "blue")
+				 .attr("stroke-width", 1)
+				 .attr("fill", "none");
+
+</script>
+</body>
