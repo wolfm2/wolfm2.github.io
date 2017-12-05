@@ -10,7 +10,7 @@ function initData() {
 }
 
 // returns drawing element, x/y scalers for drawing
-function getContext(eName, data, width, height, xName, yName, xLabel, yLabel) {
+function getContext(eName, data, zeroY, width, height, xName, yName, xLabel, yLabel) {
 	
   // mw scale, collapse, select, invert, widen data
   // collapse == rollup
@@ -34,8 +34,11 @@ function getContext(eName, data, width, height, xName, yName, xLabel, yLabel) {
   
   //var x = d3.scaleLinear().domain([xmin,xmax]).range([0, width]);
   var x = d3.scalePoint().domain(pointArr).range([0, width]);
-  var y = d3.scaleLinear().domain([ymax,ymin]).range([0, height]);
-
+  if (zeroY) 
+    var y = d3.scaleLinear().domain([ymax,0]).range([0, height]);
+  else
+    var y = d3.scaleLinear().domain([ymax,ymin]).range([0, height]);
+    
   /*
   var xAxis = d3.svg.axis()
     .scale(x)
@@ -53,7 +56,10 @@ function getContext(eName, data, width, height, xName, yName, xLabel, yLabel) {
   var yAxis = d3.axisLeft(y);
   
   var xs = d3.scaleLinear().domain([xmin,xmax]).range([0, width]);
-  var ys = d3.scaleLinear().domain([ymax,ymin]).range([0, height]);
+  if (zeroY) 
+    var ys = d3.scaleLinear().domain([ymax,0]).range([0, height]);
+  else
+    var ys = d3.scaleLinear().domain([ymax,ymin]).range([0, height]);
 	  
   // data scaled relative to svg size
   function xScaledAcc(d, i) { 
@@ -84,7 +90,7 @@ function getContext(eName, data, width, height, xName, yName, xLabel, yLabel) {
       .append("text")
 		.attr("font-weight", "bold")
 		.attr("text-anchor", "middle")
-		.attr("transform", "rotate(-90)").attr("y", -30).attr("x", -height / 2)
+		.attr("transform", "rotate(-90)").attr("y", -60).attr("x", -height / 2)
         .text(yLabel);
 
   xTextOff = -(width/pALen + 2);		

@@ -43,7 +43,7 @@ h1,h2,h4,h5,h6 {
 
 	#timeline {
 		width: 800px;
-		height: 150px;
+		height: 250px;
 		overflow: hidden;
 		margin: 100px auto;
 		position: relative;
@@ -76,6 +76,11 @@ h1,h2,h4,h5,h6 {
 			height: 350px;
 			overflow: hidden;
 		}	
+		#issues img {
+				width: 200px;
+				height: 200px;
+		}
+		
 			#issues li {
 				width: 800px;
 				height: 350px;
@@ -93,19 +98,19 @@ h1,h2,h4,h5,h6 {
 					float: left;
 					margin: 10px 30px 10px 50px;
 					background: transparent;
-					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
-					zoom: 1;
-					-webkit-transition: all 2s ease-in-out;
-					-moz-transition: all 2s ease-in-out;
-					-o-transition: all 2s ease-in-out;
-					-ms-transition: all 2s ease-in-out; 
-					transition: all 2s ease-in-out;
-					-webkit-transform: scale(0.7,0.7);
-					-moz-transform: scale(0.7,0.7);
-				    -o-transform: scale(0.7,0.7);
-				    -ms-transform: scale(0.7,0.7);
-				    transform: scale(0.7,0.7);
+					/*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */  
+					/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+					/*zoom: 1;*/
+					/*-webkit-transition: all 2s ease-in-out;*/
+					/*-moz-transition: all 2s ease-in-out;*/
+					/*-o-transition: all 2s ease-in-out;*/
+					/*-ms-transition: all 2s ease-in-out; */
+					/*transition: all 2s ease-in-out;*/
+					/*-webkit-transform: scale(0.7,0.7);*/
+					/*-moz-transform: scale(0.7,0.7);*/
+				    /*-o-transform: scale(0.7,0.7);*/
+				    /*-ms-transform: scale(0.7,0.7);*/
+				    /*transform: scale(0.7,0.7);*/
 				}
 				#issues li h1 {
 					color: #ffcc00;

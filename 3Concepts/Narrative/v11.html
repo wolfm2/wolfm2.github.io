@@ -1,66 +1,86 @@
 <!DOCTYPE html>
+<meta charset="utf-8">
 
+<head>
 <style> 
-svg line, svg path{
+svg {
+ padding: 40px 40px 40px 80px;
+}
+
+.axis line, .axis path{
   stroke: white;
+  fill: none;
+  stroke-width: 2px;
 }
 
 svg text{
   fill: white;
 } 
 </style>
+</head>
 
-<svg width="960" height="500"></svg>
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<body>
+<svg> </svg>
+
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="utils.js"></script>
+
+<script src="34540-0001-Data.js"></script>
 <script>
 
-var svg = d3.select("svg"),
-    margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+//initData(); // read flat file
+// data = data.from.parent
+data = d3.tsvParse(tsvData);
 
-var parseTime = d3.timeParse("%d-%b-%y");
+// fcn data, xacc, yacc, startx, starty, tickforeach, width, height, ret: scaled accessors
+// axis titles
 
-var x = d3.scaleTime()
-    .rangeRound([0, width]);
+colors = ["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"];
 
-var y = d3.scaleLinear()
-    .rangeRound([height, 0]);
+var w = window.innerWidth*.7;
+var h = window.innerHeight*.7;
 
-var area = d3.area()
-    .x(function(d) { return x(d.date); })
-    .y1(function(d) { return y(d.close); });
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = w - margin.left - margin.right,
+    height = h - margin.top - margin.bottom;
 
-d3.tsv("v11.tsv", function(d) {
-  d.date = parseTime(d.date);
-  d.close = +d.close;
-  return d;
-}, function(error, data) {
-  if (error) throw error;
+// abs incar rates over year  
+var md = d3.nest().key(function(data) {
+    return data.YEAR
+  })
+  .sortKeys(d3.ascending)
+  .rollup(function(d) {
+    return {
+      xdat: d[0]["YEAR"],
+      //xname:d3.mean(d, function(g){return +g.xname}),
+      ydat: d3.sum(d, function(g) {
+        return (g.STATE == "US") ? +g.JURTOTM + +g.JURTOTF : 0;
+      })
+      
+    };
+  }).entries(data);
+  
+//function xAcc(d) { return +d[xname]; }
+//function yAcc(d) { return +d[yname]; }  
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
-  y.domain([0, d3.max(data, function(d) { return d.close; })]);
-  area.y0(y(0));
+// draw axes & get drawing context / scalers
+var c = getContext("svg", md, true, width, height, "xdat", "ydat", "Year", "People Incarcerated");
 
-  g.append("path")
-      .datum(data)
-      .attr("fill", "steelblue")
-      .attr("d", area);
+// data accessor / parser
+var getData = d3.line()
+				   .x(c.xsa) 
+				   .y(c.ysa);
 
-  g.append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+// add end point for data fill
+lastX = c.d.slice(-1)[0].value.xdat;
+c.d.unshift({value:{xdat:1978, ydat:0}});
+c.d.push({value:{xdat:2011, ydat:0}});
 
-  g.append("g")
-      .call(d3.axisLeft(y))
-    .append("text")
-      .attr("x", 2)
-      .attr("y", y(y.ticks().pop()) + 0.5)
-      .attr("dy", "0.32em")
-      .attr("font-weight", "bold")
-      .attr("text-anchor", "start")
-      .text("Increasing Rates of Incarceration");
-});
+// make svg path
+c.e.append("path") .attr("d", getData(c.d))
+				 .attr("stroke", colors[0])
+				 .attr("stroke-width", 1)
+				 .attr("fill", colors[3]);
 
 </script>
+</body>

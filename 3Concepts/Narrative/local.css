@@ -11,16 +11,36 @@
 /* Content */
 #title {
   text-align: center;
-  font-family: 'Pragati Narrow', sans-serif;
+  font-family: 'Lora';
   font-weight: 500;
   font-size: 70pt;
   padding: 10px; 
 }
 
 #intro {
-  font-family: 'Lato', sans-serif;
-  font-size: 14pt;
-  padding: 40px; 
+  width: 60%;
+  font-family: 'Cormorant Garamond';
+  font-size: 16pt;
+  padding: 40px 20% 40px 20%; 
+}
+
+.tlt {
+  font-size: 20pt;
+  padding-bottom: 10px;
+}
+
+.tline {
+  height: 100px;
+}
+
+.vis {
+  width:  48%;
+  height: 450px;
+}
+
+.SubTitle {
+  font-size: 1.5em;
+  line-height: 120%;
 }
 
 null {
@@ -29,6 +49,7 @@ null {
   font-family: 'Pragati Narrow', sans-serif;
   font-family: 'Varela', sans-serif;
 }
+
 
 .faceListPad {
   display: inline-block;
@@ -80,9 +101,10 @@ img {
 
 .txt {
   flex: 1;
+  width: 48%;
   padding: 20px; 
-  font-family: 'Lato', sans-serif;
-  font-size: 12pt;
+  font-family: 'Cormorant Garamond';
+  font-size: 15pt;
   line-height: 120%;
 }
 
