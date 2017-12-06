@@ -73,11 +73,19 @@ null {
     width: auto;
 }
 
-img {
+.lpic img {
   object-fit: cover;
   object-position: center;
   width: 100%;
   height: 100%;
+}
+
+.vis img {
+  /* object-fit: cover; */
+  /* object-position: center; */
+  widdth: 48%;
+  padding-left: 10%;
+  
 }
 
 .entry {

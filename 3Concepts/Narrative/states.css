@@ -1,0 +1,48 @@
+.state{
+fill: none;
+stroke: #fceabb;
+stroke-width: 3;
+}
+.state:hover{
+fill-opacity:0.5;
+}
+#popUp {   
+position: absolute;           
+text-align: center;
+padding: 20px;             
+margin: 10px;
+font: 12px sans-serif;       
+border: 2px;      
+border-radius: 5px;           
+pointer-events: none;         
+}
+#popUp h4{
+margin:0;
+font-size:14px;
+}
+#popUp{
+background:rgba(0,0,0,0.9);
+border:1px solid grey;
+border-radius:5px;
+font-size:12px;
+width:auto;
+padding:4px;
+color:white;
+opacity:0;
+}
+
+
+
+#popUp table{
+table-layout:fixed;
+}
+#popUp tr td{
+padding:0;
+margin:0;
+}
+#popUp tr td:nth-child(1){
+width:50px;
+}
+#popUp tr td:nth-child(2){
+text-align:center;
+}
